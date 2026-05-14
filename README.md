@@ -1,23 +1,90 @@
 # DroidFax
 
-Project artifact for:
-
 **Artifacts for Dynamic Analysis of Android Apps**
 
-- Original artifact URL: <http://chapering.github.io/projects/droidfax/>
-- Imported via `pubs2github` from the publications page
-- Downloader: `page` — Downloaded 3 asset(s) linked from project page
+| | |
+|---|---|
+| Original artifact | <http://chapering.github.io/projects/droidfax/> |
+| Imported from | the publications page |
+| Tool | `pubs2github` |
 
 
-## Other papers using the same artifact
+## Other papers sharing this artifact
 
 - DroidFax: A Toolkit for Systematic Characterization of Android Applications
 - Understanding Android Application Programming and Security: A Dynamic Study
 
-This repository was created automatically. The contents under this
-directory mirror what was downloaded from the original artifact link
-above; refer to that source for the authoritative version, licensing,
-and any updates.
+---
+
+## Contents
+
+The artifact contains 561 file(s) including Python, Shell scripts, Config files, and Documentation.
+
+```
+├── generalReport
+│   ├── first_rep
+│   │   ├── explicit
+│   │   ├── implicit
+│   │   ├── log.generalReport.all.explicit
+│   │   └── log.generalReport.all.implicit
+│   ├── overall
+│   │   ├── fixated
+│   │   ├── invincluded
+│   │   ├── calleerank.txt
+│   │   ├── calleerankIns.txt
+│   │   ├── callercalleeRanking.py
+│   │   ├── callerrank.txt
+│   │   ├── callerrankIns.txt
+│   │   ├── compcov.py
+│   │   ├── compdist-ins-d.pdf
+│   │   ├── compdist-uniq-d.pdf
+│   │   ├── compdist-uniq-s.pdf
+│   │   ├── compdist.R
+│   │   ├── compdist.txt
+│   │   ├── covstat.py
+│   │   ├── edgeFreq-scatter.pdf
+│   │   ├── edgefreq.txt
+│   │   ├── edgefreqRanking-cdf.R
+│   │   ├── edgefreqRanking-scatter.R
+│   │   ├── edgefreqRanking.py
+│   │   ├── gdistcov-combine.R
+│   │   ├── gdistcov.R
+│   │   ├── gdistcov.txt
+│   │   ├── gdistcovIns-combine.R
+│   │   ├── gdistcovIns.R
+│   │   └── gdistcovIns.txt
+│   ├── second_rep
+│   │   ├── explicit
+│   │   ├── implicit
+│   │   ├── log.generalReport.all.explicit
+│   │   └── log.generalReport.all.implicit
+│   ├── third_rep
+│   │   ├── explicit
+│   │   ├── implicit
+│   │   ├── log.generalReport.all.explicit
+│   │   └── log.generalReport.all.implicit
+│   └── combineGeneralReport.sh
+├── ICCReport
+│   ├── first_rep
+│   │   ├── explicit
+│   │   ├── implicit
+│   │   ├── log.ICCReport.all.explicit
+│   │   └── log.ICCReport.all.implicit
+│   ├── overall
+│   │   ├── .gicc.txt.swp
+│   │   ├── bothdataicc.txt
+│   │   ├── dataicc.txt
+│   │   ├── deiccboth-bothdata.pdf
+│   │   ├── deiccboth-dataonly.pdf
+│   │   ├── deiccboth-extrasonly.pdf
+│   │   ├── extraicc.txt
+│   │   ├── gicc-combine.R
+│   │   ├── gicc-data.pdf
+│   │   ├── gicc-databoth.pdf
+│   │   … (20 more items)
+│   … (67 more items)
+… (637 more items)
+```
 
 ---
 
