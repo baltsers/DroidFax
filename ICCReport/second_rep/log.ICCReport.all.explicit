@@ -1,0 +1,1296 @@
+result for explicit 1/s.apk
+/home/hcai/testbed/input/pairs/explicit/1/s.apk	de.androidsolutions.bistum.wbg
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/1-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/1/s.apk 
+Soot started on Tue Feb 16 03:55:24 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'Lorg/acra/sender/HttpSender$Method;'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Lorg/acra/ReportingInteractionMode;'
+get type from 'Lorg/acra/sender/HttpSender$Type;'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.auth.UsernamePasswordCredentials is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.auth.Credentials is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpResponseException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.auth.BasicScheme is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u4 = $u0[$u5#4]
+second round from stmt: $u9#11 = $u0[$u2#7]
+Time elapsed:  56848 milliseconds
+result for explicit 1/t.apk
+/home/hcai/testbed/input/pairs/explicit/1/t.apk	com.giscloud.mdc
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/1-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/1/t.apk 
+Soot started on Tue Feb 16 03:56:21 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.util.EncodingUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u4 = $u0[$u5#4]
+second round from stmt: $u9#11 = $u0[$u2#7]
+Time elapsed:  20430 milliseconds
+result for explicit 2/s.apk
+/home/hcai/testbed/input/pairs/explicit/2/s.apk	com.dooblou.WiFiFileExplorer
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/2-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/2/s.apk 
+Soot started on Tue Feb 16 03:56:42 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+get type from 'Z'
+Warning: android.support.v7.media.MediaRouteSelector$Builder is a phantom class!
+Warning: android.support.v7.media.MediaRouteSelector is a phantom class!
+Warning: android.support.v7.media.MediaRouter$Callback is a phantom class!
+Warning: android.support.v7.media.MediaRouter$RouteInfo is a phantom class!
+Warning: android.support.v7.media.MediaRouter is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.entity.AbstractHttpEntity is a phantom class!
+Warning: org.apache.http.impl.DefaultHttpServerConnection is a phantom class!
+Warning: org.apache.http.HttpException is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoute is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.ConnectionKeepAliveStrategy is a phantom class!
+Warning: org.apache.http.ConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionRequest is a phantom class!
+Warning: org.apache.http.impl.DefaultConnectionReuseStrategy is a phantom class!
+get type from 'Z'
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.ParseException is a phantom class!
+Warning: com.sun.javadoc.ClassDoc is a phantom class!
+Warning: com.sun.javadoc.RootDoc is a phantom class!
+Warning: com.sun.javadoc.SourcePosition is a phantom class!
+Warning: com.sun.net.httpserver.Headers is a phantom class!
+Warning: com.sun.net.httpserver.HttpContext is a phantom class!
+Warning: com.sun.net.httpserver.HttpExchange is a phantom class!
+Warning: com.sun.net.httpserver.HttpHandler is a phantom class!
+Warning: com.sun.net.httpserver.HttpServer is a phantom class!
+Warning: com.sun.tools.javac.util.Context is a phantom class!
+Warning: com.sun.tools.javac.util.List is a phantom class!
+Warning: com.sun.tools.javac.util.ListBuffer is a phantom class!
+Warning: com.sun.tools.javac.util.Options is a phantom class!
+Warning: com.sun.tools.javadoc.JavadocTool is a phantom class!
+Warning: com.sun.tools.javadoc.Messager is a phantom class!
+Warning: com.sun.tools.javadoc.ModifierFilter is a phantom class!
+Warning: com.sun.tools.javadoc.RootDocImpl is a phantom class!
+Warning: java.awt.AWTEvent is a phantom class!
+Warning: java.awt.BorderLayout is a phantom class!
+Warning: java.awt.Color is a phantom class!
+Warning: java.awt.Component is a phantom class!
+Warning: java.awt.Container is a phantom class!
+Warning: java.awt.Dimension is a phantom class!
+Warning: java.awt.Font is a phantom class!
+Warning: java.awt.FontMetrics is a phantom class!
+Warning: java.awt.Frame is a phantom class!
+Warning: java.awt.Graphics2D is a phantom class!
+Warning: java.awt.Graphics is a phantom class!
+Warning: java.awt.GridBagConstraints is a phantom class!
+Warning: java.awt.GridBagLayout is a phantom class!
+Warning: java.awt.Image is a phantom class!
+Warning: java.awt.Insets is a phantom class!
+Warning: java.awt.LayoutManager is a phantom class!
+Warning: java.awt.Point is a phantom class!
+Warning: java.awt.Rectangle is a phantom class!
+Warning: java.awt.RenderingHints$Key is a phantom class!
+Warning: java.awt.RenderingHints is a phantom class!
+Warning: java.awt.Toolkit is a phantom class!
+Warning: java.awt.Window is a phantom class!
+Warning: java.awt.datatransfer.Clipboard is a phantom class!
+Warning: java.awt.datatransfer.ClipboardOwner is a phantom class!
+Warning: java.awt.datatransfer.StringSelection is a phantom class!
+Warning: java.awt.datatransfer.Transferable is a phantom class!
+Warning: java.awt.event.ActionEvent is a phantom class!
+Warning: java.awt.event.ActionListener is a phantom class!
+Warning: java.awt.event.ItemEvent is a phantom class!
+Warning: java.awt.event.ItemListener is a phantom class!
+Warning: java.awt.event.KeyEvent is a phantom class!
+Warning: java.awt.event.MouseEvent is a phantom class!
+Warning: java.awt.event.MouseListener is a phantom class!
+Warning: java.awt.event.MouseMotionListener is a phantom class!
+Warning: java.awt.event.WindowEvent is a phantom class!
+Warning: java.awt.event.WindowListener is a phantom class!
+Warning: java.awt.image.BufferedImage is a phantom class!
+Warning: java.awt.image.ImageObserver is a phantom class!
+Warning: java.awt.image.RenderedImage is a phantom class!
+Warning: java.beans.PropertyDescriptor is a phantom class!
+Warning: java.lang.management.ManagementFactory is a phantom class!
+Warning: java.lang.management.ThreadMXBean is a phantom class!
+Warning: java.rmi.server.UID is a phantom class!
+Warning: javax.imageio.ImageIO is a phantom class!
+Warning: javax.portlet.ActionRequest is a phantom class!
+Warning: javax.servlet.RequestDispatcher is a phantom class!
+Warning: javax.servlet.Servlet is a phantom class!
+Warning: javax.servlet.ServletContext is a phantom class!
+Warning: javax.servlet.ServletContextEvent is a phantom class!
+Warning: javax.servlet.ServletContextListener is a phantom class!
+Warning: javax.servlet.ServletException is a phantom class!
+Warning: javax.servlet.ServletInputStream is a phantom class!
+Warning: javax.servlet.ServletOutputStream is a phantom class!
+Warning: javax.servlet.ServletRequest is a phantom class!
+Warning: javax.servlet.ServletResponse is a phantom class!
+Warning: javax.servlet.http.Cookie is a phantom class!
+Warning: javax.servlet.http.HttpServletRequest is a phantom class!
+Warning: javax.servlet.http.HttpServletResponse is a phantom class!
+Warning: javax.servlet.http.HttpServletResponseWrapper is a phantom class!
+Warning: javax.servlet.http.HttpSession is a phantom class!
+Warning: javax.servlet.http.HttpSessionContext is a phantom class!
+Warning: javax.swing.AbstractAction is a phantom class!
+Warning: javax.swing.AbstractButton is a phantom class!
+Warning: javax.swing.Action is a phantom class!
+Warning: javax.swing.BorderFactory is a phantom class!
+Warning: javax.swing.Box is a phantom class!
+Warning: javax.swing.BoxLayout is a phantom class!
+Warning: javax.swing.ButtonModel is a phantom class!
+Warning: javax.swing.DefaultButtonModel is a phantom class!
+Warning: javax.swing.Icon is a phantom class!
+Warning: javax.swing.ImageIcon is a phantom class!
+Warning: javax.swing.JButton is a phantom class!
+Warning: javax.swing.JCheckBox is a phantom class!
+Warning: javax.swing.JComboBox is a phantom class!
+Warning: javax.swing.JComponent is a phantom class!
+Warning: javax.swing.JDialog is a phantom class!
+Warning: javax.swing.JFrame is a phantom class!
+Warning: javax.swing.JLabel is a phantom class!
+Warning: javax.swing.JOptionPane is a phantom class!
+Warning: javax.swing.JPanel is a phantom class!
+Warning: javax.swing.JPopupMenu is a phantom class!
+Warning: javax.swing.JScrollPane is a phantom class!
+Warning: javax.swing.JSeparator is a phantom class!
+Warning: javax.swing.JTabbedPane is a phantom class!
+Warning: javax.swing.JTable is a phantom class!
+Warning: javax.swing.JTextArea is a phantom class!
+Warning: javax.swing.JToolBar is a phantom class!
+Warning: javax.swing.JTree is a phantom class!
+Warning: javax.swing.JViewport is a phantom class!
+Warning: javax.swing.JWindow is a phantom class!
+Warning: javax.swing.ListSelectionModel is a phantom class!
+Warning: javax.swing.SwingUtilities is a phantom class!
+Warning: javax.swing.UIManager is a phantom class!
+Warning: javax.swing.border.Border is a phantom class!
+Warning: javax.swing.border.TitledBorder is a phantom class!
+Warning: javax.swing.event.EventListenerList is a phantom class!
+Warning: javax.swing.event.ListSelectionEvent is a phantom class!
+Warning: javax.swing.event.ListSelectionListener is a phantom class!
+Warning: javax.swing.event.TreeExpansionEvent is a phantom class!
+Warning: javax.swing.event.TreeModelListener is a phantom class!
+Warning: javax.swing.event.TreeWillExpandListener is a phantom class!
+Warning: javax.swing.plaf.TabbedPaneUI is a phantom class!
+Warning: javax.swing.plaf.basic.BasicTabbedPaneUI is a phantom class!
+Warning: javax.swing.plaf.metal.MetalTabbedPaneUI is a phantom class!
+Warning: javax.swing.table.AbstractTableModel is a phantom class!
+Warning: javax.swing.table.DefaultTableCellRenderer is a phantom class!
+Warning: javax.swing.table.JTableHeader is a phantom class!
+Warning: javax.swing.table.TableCellRenderer is a phantom class!
+Warning: javax.swing.table.TableColumn is a phantom class!
+Warning: javax.swing.table.TableColumnModel is a phantom class!
+Warning: javax.swing.table.TableModel is a phantom class!
+Warning: javax.swing.text.View is a phantom class!
+Warning: javax.swing.tree.DefaultMutableTreeNode is a phantom class!
+Warning: javax.swing.tree.DefaultTreeCellRenderer is a phantom class!
+Warning: javax.swing.tree.DefaultTreeModel is a phantom class!
+Warning: javax.swing.tree.ExpandVetoException is a phantom class!
+Warning: javax.swing.tree.MutableTreeNode is a phantom class!
+Warning: javax.swing.tree.TreeCellRenderer is a phantom class!
+Warning: javax.swing.tree.TreeModel is a phantom class!
+Warning: javax.swing.tree.TreeNode is a phantom class!
+Warning: javax.swing.tree.TreePath is a phantom class!
+Warning: javax.swing.tree.TreeSelectionModel is a phantom class!
+Warning: org.apache.commons.logging.Log is a phantom class!
+Warning: org.apache.commons.logging.LogFactory is a phantom class!
+Warning: org.apache.http.ConnectionClosedException is a phantom class!
+Warning: org.apache.http.HeaderElementIterator is a phantom class!
+Warning: org.apache.http.HeaderIterator is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpMessage is a phantom class!
+Warning: org.apache.http.HttpRequestFactory is a phantom class!
+Warning: org.apache.http.HttpResponseFactory is a phantom class!
+Warning: org.apache.http.HttpServerConnection is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.MalformedChunkCodingException is a phantom class!
+Warning: org.apache.http.MethodNotSupportedException is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.TokenIterator is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.client.ResponseHandler is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpOptions is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpTrace is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.entity.BasicHttpEntity is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.util.ByteArrayBuffer is a phantom class!
+Warning: org.apache.http.impl.DefaultHttpRequestFactory is a phantom class!
+Warning: org.apache.http.impl.DefaultHttpResponseFactory is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHeaderElementIterator is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpRequest is a phantom class!
+Warning: org.apache.http.message.BasicHttpResponse is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.message.BasicStatusLine is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.DefaultedHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpProcessor is a phantom class!
+Warning: org.apache.http.protocol.HttpProcessor is a phantom class!
+Warning: org.apache.http.protocol.HttpService is a phantom class!
+Warning: org.apache.http.protocol.ResponseConnControl is a phantom class!
+Warning: org.apache.http.protocol.ResponseContent is a phantom class!
+Warning: org.apache.http.protocol.ResponseDate is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+Warning: sun.net.www.protocol.http.Handler is a phantom class!
+Warning: sun.net.www.protocol.http.HttpURLConnection is a phantom class!
+Warning: com.sun.javadoc.Tag is a phantom class!
+No main class given. Inferred 'org.apache.james.mime4j.field.contentdisposition.parser.ContentDispositionParser' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 1.2 seconds.
+[Spark] Solution found in 1.2 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  82002 milliseconds
+result for explicit 2/t.apk
+/home/hcai/testbed/input/pairs/explicit/2/t.apk	de.sandnersoft.Arbeitskalender_Lite
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/2-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/2/t.apk 
+Soot started on Tue Feb 16 03:58:04 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoute is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.ConnectionKeepAliveStrategy is a phantom class!
+Warning: org.apache.http.ConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.HttpException is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionRequest is a phantom class!
+Warning: org.apache.http.impl.DefaultConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.HeaderElementIterator is a phantom class!
+Warning: org.apache.http.HeaderIterator is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ParseException is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.TokenIterator is a phantom class!
+Warning: org.apache.http.annotation.Immutable is a phantom class!
+Warning: org.apache.http.annotation.NotThreadSafe is a phantom class!
+Warning: org.apache.http.annotation.ThreadSafe is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.james.mime4j.message.BodyPart is a phantom class!
+Warning: org.apache.james.mime4j.descriptor.ContentDescriptor is a phantom class!
+Warning: org.apache.james.mime4j.message.Body is a phantom class!
+Warning: org.apache.james.mime4j.message.Multipart is a phantom class!
+Warning: org.apache.james.mime4j.util.ByteArrayBuffer is a phantom class!
+Warning: org.apache.james.mime4j.util.ByteSequence is a phantom class!
+Warning: org.apache.james.mime4j.parser.Field is a phantom class!
+Warning: org.apache.james.mime4j.message.Message is a phantom class!
+Warning: org.apache.james.mime4j.MimeException is a phantom class!
+Warning: org.apache.james.mime4j.message.SingleBody is a phantom class!
+Warning: org.apache.james.mime4j.message.Entity is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHeaderElementIterator is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.james.mime4j.field.ContentTypeField is a phantom class!
+Warning: org.apache.james.mime4j.field.Fields is a phantom class!
+Warning: org.apache.james.mime4j.message.Header is a phantom class!
+Warning: org.apache.james.mime4j.message.MessageWriter is a phantom class!
+Warning: org.apache.james.mime4j.util.CharsetUtil is a phantom class!
+Warning: org.apache.james.mime4j.util.ContentUtil is a phantom class!
+No main class given. Inferred 'com.dropbox.client2.SdkVersion' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  27122 milliseconds
+result for explicit 3/s.apk
+/home/hcai/testbed/input/pairs/explicit/3/s.apk	de.appinside.devcenter.yltw63
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/3-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/3/s.apk 
+Soot started on Tue Feb 16 03:58:31 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.cookie.DateParseException is a phantom class!
+Warning: org.apache.http.impl.cookie.DateUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u3#12 = $u9[$u7#7]
+array element type: (filled narr)int
+array element type: (filled narr)int
+Time elapsed:  48014 milliseconds
+result for explicit 3/t.apk
+/home/hcai/testbed/input/pairs/explicit/3/t.apk	de.actionbound
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/3-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/3/t.apk 
+Soot started on Tue Feb 16 03:59:19 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+Warning: android.support.v4.app.DialogFragment$DialogStyle is a phantom class!
+Warning: android.support.v4.app.FragmentTransaction$Transit is a phantom class!
+Warning: android.support.v4.view.ViewCompat$AccessibilityLiveRegion is a phantom class!
+Warning: android.support.v4.view.ViewCompat$ImportantForAccessibility is a phantom class!
+Warning: android.support.v4.view.ViewCompat$LayerType is a phantom class!
+Warning: android.support.v4.view.ViewCompat$LayoutDirectionMode is a phantom class!
+Warning: android.support.v4.view.ViewCompat$OverScroll is a phantom class!
+Warning: android.support.v4.view.ViewCompat$ResolvedLayoutDirectionMode is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$EdgeGravity is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$LockMode is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$State is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u3 = $u7[$u5#4]
+second round from stmt: $u9#11 = $u0[$u2#7]
+Time elapsed:  34420 milliseconds
+result for explicit 4/s.apk
+/home/hcai/testbed/input/pairs/explicit/4/s.apk	org.plannings
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/4-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/4/s.apk 
+Soot started on Tue Feb 16 03:59:53 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  18620 milliseconds
+result for explicit 4/t.apk
+/home/hcai/testbed/input/pairs/explicit/4/t.apk	com.tyczj.weddingalbum
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/4-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/4/t.apk 
+Soot started on Tue Feb 16 04:00:12 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+Warning: com.google.gson.Gson is a phantom class!
+Warning: com.google.gson.GsonBuilder is a phantom class!
+Warning: com.google.gson.JsonDeserializationContext is a phantom class!
+Warning: com.google.gson.JsonDeserializer is a phantom class!
+Warning: com.google.gson.JsonElement is a phantom class!
+Warning: com.google.gson.JsonParseException is a phantom class!
+Warning: com.google.gson.JsonPrimitive is a phantom class!
+Warning: com.google.gson.annotations.Expose is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: com.squareup.okhttp.OkHttpClient is a phantom class!
+Warning: com.squareup.okhttp.Request is a phantom class!
+Warning: com.squareup.okhttp.Response is a phantom class!
+Warning: com.squareup.okhttp.RequestBody is a phantom class!
+Warning: com.squareup.okhttp.MediaType is a phantom class!
+Warning: okio.BufferedSink is a phantom class!
+Warning: com.squareup.okhttp.Call is a phantom class!
+Warning: com.squareup.okhttp.Headers$Builder is a phantom class!
+Warning: com.squareup.okhttp.Headers is a phantom class!
+Warning: com.squareup.okhttp.Request$Builder is a phantom class!
+Warning: com.squareup.okhttp.ResponseBody is a phantom class!
+Warning: com.sun.jersey.api.client.Client is a phantom class!
+Warning: com.sun.jersey.api.client.ClientResponse is a phantom class!
+Warning: com.sun.jersey.api.client.RequestBuilder is a phantom class!
+Warning: com.sun.jersey.api.client.WebResource$Builder is a phantom class!
+Warning: com.sun.jersey.api.client.WebResource is a phantom class!
+Warning: com.sun.jersey.api.client.filter.ClientFilter is a phantom class!
+Warning: com.sun.jersey.api.client.filter.LoggingFilter is a phantom class!
+Warning: com.sun.jersey.api.representation.Form is a phantom class!
+Warning: com.sun.jersey.multipart.BodyPart is a phantom class!
+Warning: com.sun.jersey.multipart.FormDataMultiPart is a phantom class!
+Warning: com.sun.jersey.multipart.MultiPart is a phantom class!
+Warning: com.sun.jersey.multipart.file.FileDataBodyPart is a phantom class!
+Warning: javax.ws.rs.core.MediaType is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRouteBean is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+No main class given. Inferred 'uk.co.mattburns.pwinty.v2_1.manual.OrderUpdater' as main class.
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+Time elapsed:  52488 milliseconds
+result for explicit 5/s.apk
+/home/hcai/testbed/input/pairs/explicit/5/s.apk	de.androidsolutions.bistum.wbg
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/5-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/5/s.apk 
+Soot started on Tue Feb 16 04:01:05 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'Z'
+get type from 'Z'
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Z'
+get type from 'Lorg/acra/sender/HttpSender$Method;'
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+get type from 'Lorg/acra/ReportingInteractionMode;'
+get type from 'Lorg/acra/sender/HttpSender$Type;'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Z'
+get type from 'I'
+get type from 'I'
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.auth.UsernamePasswordCredentials is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.auth.Credentials is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.HttpResponseException is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.entity.ByteArrayEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.auth.BasicScheme is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u4 = $u0[$u5#4]
+second round from stmt: $u9#11 = $u0[$u2#7]
+Time elapsed:  57091 milliseconds
+result for explicit 5/t.apk
+/home/hcai/testbed/input/pairs/explicit/5/t.apk	com.ictap.casm
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/5-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/5/t.apk 
+Soot started on Tue Feb 16 04:02:02 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.HttpStatus is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.util.EncodingUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  14573 milliseconds
+result for explicit 6/s.apk
+/home/hcai/testbed/input/pairs/explicit/6/s.apk	com.socrative.teacher
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/6-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/6/s.apk 
+Soot started on Tue Feb 16 04:02:16 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+Warning: android.support.v4.app.DialogFragment$DialogStyle is a phantom class!
+Warning: android.support.v4.app.FragmentTransaction$Transit is a phantom class!
+Warning: android.support.v4.view.ViewCompat$AccessibilityLiveRegion is a phantom class!
+Warning: android.support.v4.view.ViewCompat$ImportantForAccessibility is a phantom class!
+Warning: android.support.v4.view.ViewCompat$LayerType is a phantom class!
+Warning: android.support.v4.view.ViewCompat$LayoutDirectionMode is a phantom class!
+Warning: android.support.v4.view.ViewCompat$OverScroll is a phantom class!
+Warning: android.support.v4.view.ViewCompat$ResolvedLayoutDirectionMode is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$EdgeGravity is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$LockMode is a phantom class!
+Warning: android.support.v4.widget.DrawerLayout$State is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  17138 milliseconds
+result for explicit 6/t.apk
+/home/hcai/testbed/input/pairs/explicit/6/t.apk	com.triveous.recorder
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/6-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/6/t.apk 
+Soot started on Tue Feb 16 04:02:33 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Lbutterknife/OnItemSelected$Callback;'
+get type from 'I'
+get type from 'I'
+get type from 'Lbutterknife/OnPageChange$Callback;'
+get type from 'I'
+get type from 'Lbutterknife/OnTextChanged$Callback;'
+get type from 'I'
+get type from 'I'
+Warning: javax.annotation.processing.AbstractProcessor is a phantom class!
+Warning: javax.lang.model.util.Elements is a phantom class!
+Warning: javax.annotation.processing.Filer is a phantom class!
+Warning: javax.lang.model.util.Types is a phantom class!
+Warning: javax.lang.model.type.TypeMirror is a phantom class!
+Warning: javax.lang.model.element.Element is a phantom class!
+Warning: javax.annotation.processing.RoundEnvironment is a phantom class!
+Warning: javax.lang.model.element.TypeElement is a phantom class!
+Warning: javax.lang.model.SourceVersion is a phantom class!
+Warning: javax.annotation.processing.ProcessingEnvironment is a phantom class!
+get type from 'I'
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: oauth.signpost.commonshttp.CommonsHttpOAuthConsumer is a phantom class!
+Warning: oauth.signpost.commonshttp.CommonsHttpOAuthProvider is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoute is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.ConnectionKeepAliveStrategy is a phantom class!
+Warning: org.apache.http.ConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionRequest is a phantom class!
+Warning: org.apache.http.impl.DefaultConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPHeader is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPMethod is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPRequest is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPResponse is a phantom class!
+Warning: com.google.appengine.api.urlfetch.URLFetchService is a phantom class!
+Warning: com.google.appengine.api.urlfetch.URLFetchServiceFactory is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+Warning: org.apache.http.client.RequestDirector is a phantom class!
+Warning: org.apache.http.protocol.HttpRequestExecutor is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoutePlanner is a phantom class!
+Warning: org.apache.http.protocol.HttpProcessor is a phantom class!
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.client.RedirectHandler is a phantom class!
+Warning: org.apache.http.client.AuthenticationHandler is a phantom class!
+Warning: org.apache.http.client.UserTokenHandler is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpProcessor is a phantom class!
+Warning: org.apache.http.auth.Credentials is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeFactory is a phantom class!
+Warning: org.apache.http.auth.AuthScheme is a phantom class!
+Warning: com.squareup.okhttp.Call is a phantom class!
+Warning: com.squareup.okhttp.Headers is a phantom class!
+Warning: com.squareup.okhttp.MediaType is a phantom class!
+Warning: com.squareup.okhttp.OkHttpClient is a phantom class!
+Warning: com.squareup.okhttp.Request$Builder is a phantom class!
+Warning: com.squareup.okhttp.Request is a phantom class!
+Warning: com.squareup.okhttp.RequestBody is a phantom class!
+Warning: com.squareup.okhttp.Response is a phantom class!
+Warning: com.squareup.okhttp.ResponseBody is a phantom class!
+Warning: javax.annotation.processing.Messager is a phantom class!
+Warning: javax.lang.model.element.ElementKind is a phantom class!
+Warning: javax.lang.model.element.ExecutableElement is a phantom class!
+Warning: javax.lang.model.element.Modifier is a phantom class!
+Warning: javax.lang.model.element.Name is a phantom class!
+Warning: javax.lang.model.element.PackageElement is a phantom class!
+Warning: javax.lang.model.element.VariableElement is a phantom class!
+Warning: javax.lang.model.type.ArrayType is a phantom class!
+Warning: javax.lang.model.type.DeclaredType is a phantom class!
+Warning: javax.lang.model.type.TypeKind is a phantom class!
+Warning: javax.lang.model.type.TypeVariable is a phantom class!
+Warning: javax.servlet.ServletContextEvent is a phantom class!
+Warning: javax.servlet.ServletContextListener is a phantom class!
+Warning: javax.tools.Diagnostic$Kind is a phantom class!
+Warning: javax.tools.JavaFileObject is a phantom class!
+Warning: oauth.signpost.OAuthConsumer is a phantom class!
+Warning: oauth.signpost.basic.DefaultOAuthConsumer is a phantom class!
+Warning: oauth.signpost.http.HttpRequest is a phantom class!
+Warning: okio.BufferedSink is a phantom class!
+Warning: org.apache.avalon.framework.logger.Logger is a phantom class!
+Warning: org.apache.log4j.Priority is a phantom class!
+Warning: org.apache.log4j.Logger is a phantom class!
+Warning: org.apache.log.Logger is a phantom class!
+Warning: org.apache.http.FormattedHeader is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.HeaderElementIterator is a phantom class!
+Warning: org.apache.http.HeaderIterator is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ParseException is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.TokenIterator is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeRegistry is a phantom class!
+Warning: org.apache.http.auth.AuthScope is a phantom class!
+Warning: org.apache.http.auth.AuthState is a phantom class!
+Warning: org.apache.http.auth.AuthenticationException is a phantom class!
+Warning: org.apache.http.auth.MalformedChallengeException is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.CookieStore is a phantom class!
+Warning: org.apache.http.client.CredentialsProvider is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.HttpHostConnectException is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRouteBean is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.entity.AbstractHttpEntity is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.util.ByteArrayBuffer is a phantom class!
+Warning: org.apache.http.impl.client.BasicCookieStore is a phantom class!
+Warning: org.apache.http.impl.client.DefaultRequestDirector is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHeaderElementIterator is a phantom class!
+Warning: org.apache.http.message.BasicHeaderValueParser is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.message.HeaderValueParser is a phantom class!
+Warning: org.apache.http.message.ParserCursor is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.protocol.HTTP is a phantom class!
+Warning: org.apache.http.util.CharArrayBuffer is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.apache.log.Hierarchy is a phantom class!
+Warning: org.apache.log4j.Category is a phantom class!
+Warning: rx.Subscriber is a phantom class!
+Warning: rx.Observable is a phantom class!
+Warning: rx.Observable$OnSubscribe is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: rx.Subscription is a phantom class!
+Warning: rx.subscriptions.Subscriptions is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  51773 milliseconds
+result for explicit 7/s.apk
+/home/hcai/testbed/input/pairs/explicit/7/s.apk	uk.co.elogbooks
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/7-s.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/7/s.apk 
+Soot started on Tue Feb 16 04:03:25 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'I'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'Ljavax/annotation/meta/When;'
+get type from 'Ljavax/annotation/meta/When;'
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.0 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+array element type: (filled narr)int
+second round from stmt: $u4 = $u0[$u5#4]
+second round from stmt: $u9#11 = $u0[$u2#7]
+Time elapsed:  33877 milliseconds
+result for explicit 7/t.apk
+/home/hcai/testbed/input/pairs/explicit/7/t.apk	com.triveous.recorder
+DUA-Forensics args to Soot: -w -cp /home/hcai//workspace/iac/bin:/home/hcai/Android/Sdk/platforms/android-23/android.jar -p cg verbose:false,implicit-entry:true -p cg.spark verbose:false,on-fly-cg:true,rta:false -d /home/hcai/testbed/second_rep/singleAppLogs_explicit/7-t.logcat -process-dir /home/hcai/testbed/input/pairs/explicit/7/t.apk 
+Soot started on Tue Feb 16 04:03:59 EST 2016
+Warning: com.ironsource.mobilcore.BaseFlowBasedAdUnit is a phantom class!
+Warning: java.lang.invoke.LambdaMetafactory is a phantom class!
+Warning: java.lang.ref.Finalizer is a phantom class!
+Warning: android.net.http.AndroidHttpClient is a phantom class!
+get type from 'D'
+get type from 'Z'
+get type from 'D'
+get type from 'Z'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'Z'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'J'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'I'
+get type from 'Lbutterknife/OnItemSelected$Callback;'
+get type from 'I'
+get type from 'I'
+get type from 'Lbutterknife/OnPageChange$Callback;'
+get type from 'I'
+get type from 'Lbutterknife/OnTextChanged$Callback;'
+get type from 'I'
+get type from 'I'
+Warning: javax.annotation.processing.AbstractProcessor is a phantom class!
+Warning: javax.lang.model.util.Elements is a phantom class!
+Warning: javax.annotation.processing.Filer is a phantom class!
+Warning: javax.lang.model.util.Types is a phantom class!
+Warning: javax.lang.model.type.TypeMirror is a phantom class!
+Warning: javax.lang.model.element.Element is a phantom class!
+Warning: javax.annotation.processing.RoundEnvironment is a phantom class!
+Warning: javax.lang.model.element.TypeElement is a phantom class!
+Warning: javax.lang.model.SourceVersion is a phantom class!
+Warning: javax.annotation.processing.ProcessingEnvironment is a phantom class!
+get type from 'I'
+Warning: org.apache.http.HttpHost is a phantom class!
+Warning: org.apache.http.HttpEntity is a phantom class!
+Warning: org.apache.http.HttpRequest is a phantom class!
+Warning: org.apache.http.impl.client.DefaultHttpClient is a phantom class!
+Warning: org.apache.http.client.methods.HttpUriRequest is a phantom class!
+Warning: org.apache.http.HttpResponse is a phantom class!
+Warning: org.apache.http.protocol.HttpContext is a phantom class!
+Warning: org.apache.http.client.methods.HttpEntityEnclosingRequestBase is a phantom class!
+Warning: org.apache.http.Header is a phantom class!
+Warning: oauth.signpost.commonshttp.CommonsHttpOAuthConsumer is a phantom class!
+Warning: oauth.signpost.commonshttp.CommonsHttpOAuthProvider is a phantom class!
+Warning: org.apache.http.client.HttpClient is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRoute is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoute is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionManager is a phantom class!
+Warning: org.apache.http.conn.ConnectionKeepAliveStrategy is a phantom class!
+Warning: org.apache.http.ConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.HttpRequestInterceptor is a phantom class!
+Warning: org.apache.http.HttpResponseInterceptor is a phantom class!
+Warning: org.apache.http.impl.conn.tsccm.ThreadSafeClientConnManager is a phantom class!
+Warning: org.apache.http.conn.scheme.SchemeRegistry is a phantom class!
+Warning: org.apache.http.conn.ClientConnectionRequest is a phantom class!
+Warning: org.apache.http.impl.DefaultConnectionReuseStrategy is a phantom class!
+Warning: org.apache.http.entity.HttpEntityWrapper is a phantom class!
+Warning: org.apache.http.HttpEntityEnclosingRequest is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPHeader is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPMethod is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPRequest is a phantom class!
+Warning: com.google.appengine.api.urlfetch.HTTPResponse is a phantom class!
+Warning: com.google.appengine.api.urlfetch.URLFetchService is a phantom class!
+Warning: com.google.appengine.api.urlfetch.URLFetchServiceFactory is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'I'
+Warning: org.apache.http.client.RequestDirector is a phantom class!
+Warning: org.apache.http.protocol.HttpRequestExecutor is a phantom class!
+Warning: org.apache.http.conn.routing.HttpRoutePlanner is a phantom class!
+Warning: org.apache.http.protocol.HttpProcessor is a phantom class!
+Warning: org.apache.http.client.HttpRequestRetryHandler is a phantom class!
+Warning: org.apache.http.client.RedirectHandler is a phantom class!
+Warning: org.apache.http.client.AuthenticationHandler is a phantom class!
+Warning: org.apache.http.client.UserTokenHandler is a phantom class!
+Warning: org.apache.http.client.methods.HttpRequestBase is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpProcessor is a phantom class!
+Warning: org.apache.http.auth.Credentials is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeFactory is a phantom class!
+Warning: org.apache.http.auth.AuthScheme is a phantom class!
+Warning: com.squareup.okhttp.Call is a phantom class!
+Warning: com.squareup.okhttp.Headers is a phantom class!
+Warning: com.squareup.okhttp.MediaType is a phantom class!
+Warning: com.squareup.okhttp.OkHttpClient is a phantom class!
+Warning: com.squareup.okhttp.Request$Builder is a phantom class!
+Warning: com.squareup.okhttp.Request is a phantom class!
+Warning: com.squareup.okhttp.RequestBody is a phantom class!
+Warning: com.squareup.okhttp.Response is a phantom class!
+Warning: com.squareup.okhttp.ResponseBody is a phantom class!
+Warning: javax.annotation.processing.Messager is a phantom class!
+Warning: javax.lang.model.element.ElementKind is a phantom class!
+Warning: javax.lang.model.element.ExecutableElement is a phantom class!
+Warning: javax.lang.model.element.Modifier is a phantom class!
+Warning: javax.lang.model.element.Name is a phantom class!
+Warning: javax.lang.model.element.PackageElement is a phantom class!
+Warning: javax.lang.model.element.VariableElement is a phantom class!
+Warning: javax.lang.model.type.ArrayType is a phantom class!
+Warning: javax.lang.model.type.DeclaredType is a phantom class!
+Warning: javax.lang.model.type.TypeKind is a phantom class!
+Warning: javax.lang.model.type.TypeVariable is a phantom class!
+Warning: javax.servlet.ServletContextEvent is a phantom class!
+Warning: javax.servlet.ServletContextListener is a phantom class!
+Warning: javax.tools.Diagnostic$Kind is a phantom class!
+Warning: javax.tools.JavaFileObject is a phantom class!
+Warning: oauth.signpost.OAuthConsumer is a phantom class!
+Warning: oauth.signpost.basic.DefaultOAuthConsumer is a phantom class!
+Warning: oauth.signpost.http.HttpRequest is a phantom class!
+Warning: okio.BufferedSink is a phantom class!
+Warning: org.apache.avalon.framework.logger.Logger is a phantom class!
+Warning: org.apache.log4j.Priority is a phantom class!
+Warning: org.apache.log4j.Logger is a phantom class!
+Warning: org.apache.log.Logger is a phantom class!
+Warning: org.apache.http.FormattedHeader is a phantom class!
+Warning: org.apache.http.HeaderElement is a phantom class!
+Warning: org.apache.http.HeaderElementIterator is a phantom class!
+Warning: org.apache.http.HeaderIterator is a phantom class!
+Warning: org.apache.http.HttpVersion is a phantom class!
+Warning: org.apache.http.NameValuePair is a phantom class!
+Warning: org.apache.http.ParseException is a phantom class!
+Warning: org.apache.http.ProtocolVersion is a phantom class!
+Warning: org.apache.http.RequestLine is a phantom class!
+Warning: org.apache.http.StatusLine is a phantom class!
+Warning: org.apache.http.TokenIterator is a phantom class!
+Warning: org.apache.http.auth.AuthSchemeRegistry is a phantom class!
+Warning: org.apache.http.auth.AuthScope is a phantom class!
+Warning: org.apache.http.auth.AuthState is a phantom class!
+Warning: org.apache.http.auth.AuthenticationException is a phantom class!
+Warning: org.apache.http.auth.MalformedChallengeException is a phantom class!
+Warning: org.apache.http.client.ClientProtocolException is a phantom class!
+Warning: org.apache.http.client.CookieStore is a phantom class!
+Warning: org.apache.http.client.CredentialsProvider is a phantom class!
+Warning: org.apache.http.client.entity.UrlEncodedFormEntity is a phantom class!
+Warning: org.apache.http.client.methods.HttpDelete is a phantom class!
+Warning: org.apache.http.client.methods.HttpGet is a phantom class!
+Warning: org.apache.http.client.methods.HttpHead is a phantom class!
+Warning: org.apache.http.client.methods.HttpPost is a phantom class!
+Warning: org.apache.http.client.methods.HttpPut is a phantom class!
+Warning: org.apache.http.client.params.HttpClientParams is a phantom class!
+Warning: org.apache.http.client.utils.URLEncodedUtils is a phantom class!
+Warning: org.apache.http.conn.HttpHostConnectException is a phantom class!
+Warning: org.apache.http.conn.params.ConnManagerParams is a phantom class!
+Warning: org.apache.http.conn.params.ConnPerRouteBean is a phantom class!
+Warning: org.apache.http.conn.scheme.PlainSocketFactory is a phantom class!
+Warning: org.apache.http.conn.scheme.Scheme is a phantom class!
+Warning: org.apache.http.entity.AbstractHttpEntity is a phantom class!
+Warning: org.apache.http.entity.InputStreamEntity is a phantom class!
+Warning: org.apache.http.entity.StringEntity is a phantom class!
+Warning: org.apache.http.util.ByteArrayBuffer is a phantom class!
+Warning: org.apache.http.impl.client.BasicCookieStore is a phantom class!
+Warning: org.apache.http.impl.client.DefaultRequestDirector is a phantom class!
+Warning: org.apache.http.message.BasicHeader is a phantom class!
+Warning: org.apache.http.message.BasicHeaderElementIterator is a phantom class!
+Warning: org.apache.http.message.BasicHeaderValueParser is a phantom class!
+Warning: org.apache.http.message.BasicHttpEntityEnclosingRequest is a phantom class!
+Warning: org.apache.http.message.BasicNameValuePair is a phantom class!
+Warning: org.apache.http.message.HeaderValueParser is a phantom class!
+Warning: org.apache.http.message.ParserCursor is a phantom class!
+Warning: org.apache.http.params.BasicHttpParams is a phantom class!
+Warning: org.apache.http.params.HttpProtocolParams is a phantom class!
+Warning: org.apache.http.protocol.BasicHttpContext is a phantom class!
+Warning: org.apache.http.protocol.HTTP is a phantom class!
+Warning: org.apache.http.util.CharArrayBuffer is a phantom class!
+Warning: org.apache.http.util.EntityUtils is a phantom class!
+Warning: org.apache.log.Hierarchy is a phantom class!
+Warning: org.apache.log4j.Category is a phantom class!
+Warning: rx.Subscriber is a phantom class!
+Warning: rx.Observable is a phantom class!
+Warning: rx.Observable$OnSubscribe is a phantom class!
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+get type from 'Z'
+Warning: rx.Subscription is a phantom class!
+Warning: rx.subscriptions.Subscriptions is a phantom class!
+[Call Graph] For information on where the call graph may be incomplete, use the verbose option to the cg phase.
+[Spark] Pointer Assignment Graph in 0.1 seconds.
+[Spark] Type masks in 0.0 seconds.
+[Spark] Pointer Graph simplified in 0.0 seconds.
+[Spark] Propagation in 0.0 seconds.
+[Spark] Solution found in 0.0 seconds.
+hcai's internal transform
+Running static analysis for ICC distribution characterization
+Time elapsed:  48321 milliseconds
